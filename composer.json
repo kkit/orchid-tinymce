@@ -1,0 +1,26 @@
+{
+    "name": "kkit/orchid-tinymce",
+    "description": "TinyMCE for Laravel Orchid",
+    "type": "library",
+    "require": {
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "outcast",
+            "email": "kit@kkit.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "kkit\\TinyMCE\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "kkit\\TinyMCE\\TinyMCEServiceProvider"
+            ]
+        }
+    }
+}
